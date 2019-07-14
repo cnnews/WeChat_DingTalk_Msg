@@ -124,7 +124,7 @@ Module Module1
                 datastream.Write(bys, 0, bys.Length)
                 datastream.Close()
                 Dim sr As StreamReader = New StreamReader(request.GetResponse.GetResponseStream)
-                Console.ForegroundColor = ConsoleColor.DarkGreen
+                Console.ForegroundColor = ConsoleColor.DarkMagenta
                 Console.WriteLine("→服务器返回信息：[" & sr.ReadToEnd & "]" & " @ " & Now)
                 Console.ForegroundColor = ConsoleColor.Black
             Catch ex As Exception
