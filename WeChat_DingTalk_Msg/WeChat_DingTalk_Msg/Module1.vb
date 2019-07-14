@@ -20,7 +20,8 @@ Module Module1
         Console.ForegroundColor = ConsoleColor.Black
         Console.Clear()
 
-        Console.WriteLine("→#串口消息转发工具-企业微信&钉钉# 开始运行，按""ESC""退出..." & " @ " & Now)
+        Console.WriteLine("→#串口消息转发工具-企业微信&钉钉#")
+        Console.WriteLine("→开始运行，按""ESC""退出..." & " @ " & Now)
         Console.WriteLine("→请仔细阅读并确认配置文件""Conf.ini""的内容！")
         Try
             confdata = conf.ReadFile("conf.ini")
