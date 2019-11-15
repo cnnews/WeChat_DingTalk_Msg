@@ -42,12 +42,12 @@ Module Module1
                 Case "vbLf"
                     sp.NewLine = vbLf
                     endchar = vbLf.ToCharArray
-                Case "vbCr"
-                    sp.NewLine = vbCr
-                    endchar = vbCr.ToCharArray
                 Case "vbCrLf"
                     sp.NewLine = vbCrLf
                     endchar = vbCrLf.ToCharArray
+                Case "vbCr"
+                    sp.NewLine = vbCr
+                    endchar = vbCr.ToCharArray
                 Case Else
                     sp.NewLine = NL
                     endchar = NL.ToCharArray
