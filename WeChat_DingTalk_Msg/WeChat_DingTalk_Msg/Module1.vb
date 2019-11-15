@@ -46,8 +46,8 @@ Module Module1
                     sp.NewLine = vbCr
                     endchar = vbCr.ToCharArray
                 Case "vbCrLf"
-                    sp.NewLine =
-                        endchar = vbCrLf.ToCharArray
+                    sp.NewLine = vbCrLf
+                    endchar = vbCrLf.ToCharArray
                 Case Else
                     sp.NewLine = NL
                     endchar = NL.ToCharArray
